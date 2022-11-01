@@ -16,7 +16,7 @@ const NewsScreen = () => {
             { articles && (
                 <Carousel
                 layout={"stack"}
-                data={articles.slice(0, 10)}
+                data={articles}
                 sliderHeight={300}
                 itemHeight={windowHeight}
                 vertical={true}
