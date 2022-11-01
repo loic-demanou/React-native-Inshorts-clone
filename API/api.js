@@ -1,4 +1,3 @@
-// https://documenter.getpostman.com/view/3479169/Szf7zncp?version=latest#236e4205-de53-41e0-bfc2-f17d396f9741
 
 export const categories = [
 {
@@ -86,7 +85,7 @@ export const sources = [
 
 export const BASE_URL = "https://saurav.tech/NewsAPI/";
 
-export const getNewsAPI = (category, country = "in") => {
+export const getNewsAPI = (category, country = "fr") => {
 return `${BASE_URL}/top-headlines/category/${category}/${country}.json`;
 };
 
