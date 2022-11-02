@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "inshorts-clone",
-    "slug": "inshorts-clone",
+    "name": "Actu-rapid",
+    "slug": "Actu-rapid",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.loicdemanou.Acturapid"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d0601514-89fe-4073-b3fb-0f2b4a87310a"
+      }
     }
   }
 }
